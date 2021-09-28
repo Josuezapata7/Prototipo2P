@@ -1,0 +1,15 @@
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\bin\Debug\CapaVista.dll
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\bin\Debug\CapaVista.pdb
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.csproj.AssemblyReference.cache
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.dll
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.pdb
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\bin\Debug\CapaControlador.dll
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\bin\Debug\CapaControlador.pdb
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.MDI.resources
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.csproj.GenerateResource.cache
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.csproj.CopyComplete
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.Puesto.resources
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.Properties.Resources.resources
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.Departamento.resources
+C:\Users\Langas\source\repos\Prototipo_2P\CapaVista\obj\Debug\CapaVista.NominaEnca.resources

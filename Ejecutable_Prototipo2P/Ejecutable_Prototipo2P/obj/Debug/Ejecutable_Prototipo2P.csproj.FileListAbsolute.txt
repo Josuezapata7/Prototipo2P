@@ -1,0 +1,12 @@
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\Ejecutable_Prototipo2P.exe.config
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\Ejecutable_Prototipo2P.exe
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\Ejecutable_Prototipo2P.pdb
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\obj\Debug\Ejecutable_Prototipo2P.csproj.AssemblyReference.cache
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\obj\Debug\Ejecutable_Prototipo2P.Properties.Resources.resources
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\obj\Debug\Ejecutable_Prototipo2P.csproj.GenerateResource.cache
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\obj\Debug\Ejecutable_Prototipo2P.csproj.CoreCompileInputs.cache
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\obj\Debug\Ejecutable_Prototipo2P.exe
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\obj\Debug\Ejecutable_Prototipo2P.pdb
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\CapaVista.dll
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\CapaVista.pdb
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\obj\Debug\Ejecutable_Prototipo2P.csproj.CopyComplete

@@ -1,0 +1,9 @@
+C:\Users\Langas\source\repos\Prototipo_2P\CapaControlador\bin\Debug\CapaControlador.dll
+C:\Users\Langas\source\repos\Prototipo_2P\CapaControlador\bin\Debug\CapaControlador.pdb
+C:\Users\Langas\source\repos\Prototipo_2P\CapaControlador\obj\Debug\CapaControlador.csproj.AssemblyReference.cache
+C:\Users\Langas\source\repos\Prototipo_2P\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
+C:\Users\Langas\source\repos\Prototipo_2P\CapaControlador\obj\Debug\CapaControlador.dll
+C:\Users\Langas\source\repos\Prototipo_2P\CapaControlador\obj\Debug\CapaControlador.pdb
+C:\Users\Langas\source\repos\Prototipo_2P\CapaControlador\bin\Debug\CapaModelo.dll
+C:\Users\Langas\source\repos\Prototipo_2P\CapaControlador\bin\Debug\CapaModelo.pdb
+C:\Users\Langas\source\repos\Prototipo_2P\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
