@@ -114,5 +114,10 @@ namespace CapaVista
             control.funDarBajaDep(id);
             llenaTabla();
         }
+
+        private void Departamento_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

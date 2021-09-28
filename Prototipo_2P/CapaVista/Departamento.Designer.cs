@@ -80,7 +80,7 @@ namespace CapaVista
             this.pnlDB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlDB.BackgroundImage")));
             this.pnlDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pnlDB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlDB.Location = new System.Drawing.Point(284, 326);
+            this.pnlDB.Location = new System.Drawing.Point(197, 326);
             this.pnlDB.Name = "pnlDB";
             this.pnlDB.Size = new System.Drawing.Size(45, 43);
             this.pnlDB.TabIndex = 30;
@@ -91,7 +91,7 @@ namespace CapaVista
             this.pnlModificar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlModificar.BackgroundImage")));
             this.pnlModificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pnlModificar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlModificar.Location = new System.Drawing.Point(240, 333);
+            this.pnlModificar.Location = new System.Drawing.Point(199, 333);
             this.pnlModificar.Name = "pnlModificar";
             this.pnlModificar.Size = new System.Drawing.Size(35, 35);
             this.pnlModificar.TabIndex = 29;
@@ -102,7 +102,7 @@ namespace CapaVista
             this.pnlIngresar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlIngresar.BackgroundImage")));
             this.pnlIngresar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pnlIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlIngresar.Location = new System.Drawing.Point(192, 326);
+            this.pnlIngresar.Location = new System.Drawing.Point(196, 326);
             this.pnlIngresar.Name = "pnlIngresar";
             this.pnlIngresar.Size = new System.Drawing.Size(42, 43);
             this.pnlIngresar.TabIndex = 28;
@@ -250,6 +250,7 @@ namespace CapaVista
             this.Name = "Departamento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Departamento";
+            this.Load += new System.EventHandler(this.Departamento_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgDepartamento)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

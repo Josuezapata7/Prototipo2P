@@ -92,30 +92,33 @@ namespace CapaVista
             this.pnlDB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlDB.BackgroundImage")));
             this.pnlDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pnlDB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlDB.Location = new System.Drawing.Point(285, 363);
+            this.pnlDB.Location = new System.Drawing.Point(171, 370);
             this.pnlDB.Name = "pnlDB";
             this.pnlDB.Size = new System.Drawing.Size(45, 43);
             this.pnlDB.TabIndex = 49;
+            this.pnlDB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlDB_MouseClick);
             // 
             // pnlModificar
             // 
             this.pnlModificar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlModificar.BackgroundImage")));
             this.pnlModificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pnlModificar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlModificar.Location = new System.Drawing.Point(241, 370);
+            this.pnlModificar.Location = new System.Drawing.Point(176, 376);
             this.pnlModificar.Name = "pnlModificar";
             this.pnlModificar.Size = new System.Drawing.Size(35, 35);
             this.pnlModificar.TabIndex = 48;
+            this.pnlModificar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlModificar_MouseClick);
             // 
             // pnlIngresar
             // 
             this.pnlIngresar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlIngresar.BackgroundImage")));
             this.pnlIngresar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pnlIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlIngresar.Location = new System.Drawing.Point(193, 363);
+            this.pnlIngresar.Location = new System.Drawing.Point(174, 370);
             this.pnlIngresar.Name = "pnlIngresar";
             this.pnlIngresar.Size = new System.Drawing.Size(42, 43);
             this.pnlIngresar.TabIndex = 47;
+            this.pnlIngresar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlIngresar_MouseClick);
             // 
             // lblDB
             // 
@@ -126,6 +129,7 @@ namespace CapaVista
             this.lblDB.Size = new System.Drawing.Size(63, 13);
             this.lblDB.TabIndex = 46;
             this.lblDB.Text = "Dar de Baja";
+            this.lblDB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblDB_MouseClick);
             // 
             // lblModificar
             // 
@@ -136,6 +140,7 @@ namespace CapaVista
             this.lblModificar.Size = new System.Drawing.Size(50, 13);
             this.lblModificar.TabIndex = 45;
             this.lblModificar.Text = "Modificar";
+            this.lblModificar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblModificar_MouseClick);
             // 
             // lblIngresarP
             // 
@@ -146,6 +151,7 @@ namespace CapaVista
             this.lblIngresarP.Size = new System.Drawing.Size(45, 13);
             this.lblIngresarP.TabIndex = 44;
             this.lblIngresarP.Text = "Ingresar";
+            this.lblIngresarP.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblIngresarP_MouseClick);
             // 
             // dvgNE
             // 
@@ -153,8 +159,11 @@ namespace CapaVista
             this.dvgNE.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgNE.Location = new System.Drawing.Point(378, 182);
             this.dvgNE.Name = "dvgNE";
+            this.dvgNE.ReadOnly = true;
+            this.dvgNE.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dvgNE.Size = new System.Drawing.Size(300, 180);
             this.dvgNE.TabIndex = 43;
+            this.dvgNE.SelectionChanged += new System.EventHandler(this.dvgNE_SelectionChanged);
             // 
             // lblFF
             // 
@@ -263,6 +272,7 @@ namespace CapaVista
             this.Name = "NominaEnca";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NominaEnca";
+            this.Load += new System.EventHandler(this.NominaEnca_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgNE)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

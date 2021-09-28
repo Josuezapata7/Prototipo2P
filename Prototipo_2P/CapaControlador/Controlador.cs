@@ -14,6 +14,7 @@ namespace CapaControlador
     {
         puesto p = new puesto();
         departamento d = new departamento();
+        nomina n = new nomina();
 
         public DataTable llenarTbl(string tablaDB)
         {
@@ -70,6 +71,35 @@ namespace CapaControlador
         public void funDarBajaDep(string id)
         {
             d.funDarBajaDep(id);
+        }
+
+        /*----- Funciones Nomina ------*/
+        public DataTable llenarTblN(string tablaDB)
+        {
+            OdbcDataAdapter dt = p.llenarTbl(tablaDB);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            return table;
+        }
+
+        public void funInsertarN(string idNo, string fechaI, string fechaF, string estatus)
+        {
+            n.funInsertar(idNo, fechaI, fechaF, estatus);
+        }
+
+        public void funSeleccionarDTN(DataGridView data, TextBox id, DateTimePicker fechaI, DateTimePicker fechaF, TextBox estatus)
+        {
+            n.funSeleccionarDT(data, id, fechaI, fechaF,estatus);
+        }
+
+        public void funModificarN(string idModificar, string fechaI, string fechaF, string estatus)
+        {
+            n.funModificar(idModificar, fechaI, fechaF,estatus);
+        }
+
+        public void funDarBajaN(string id)
+        {
+            n.funDarBajaN(id);
         }
     }
 }
