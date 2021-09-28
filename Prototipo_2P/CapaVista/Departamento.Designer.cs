@@ -84,6 +84,7 @@ namespace CapaVista
             this.pnlDB.Name = "pnlDB";
             this.pnlDB.Size = new System.Drawing.Size(45, 43);
             this.pnlDB.TabIndex = 30;
+            this.pnlDB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlDB_MouseClick);
             // 
             // pnlModificar
             // 
@@ -94,6 +95,7 @@ namespace CapaVista
             this.pnlModificar.Name = "pnlModificar";
             this.pnlModificar.Size = new System.Drawing.Size(35, 35);
             this.pnlModificar.TabIndex = 29;
+            this.pnlModificar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlModificar_MouseClick);
             // 
             // pnlIngresar
             // 
@@ -104,6 +106,7 @@ namespace CapaVista
             this.pnlIngresar.Name = "pnlIngresar";
             this.pnlIngresar.Size = new System.Drawing.Size(42, 43);
             this.pnlIngresar.TabIndex = 28;
+            this.pnlIngresar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlIngresar_MouseClick);
             // 
             // lblDB
             // 
@@ -114,6 +117,7 @@ namespace CapaVista
             this.lblDB.Size = new System.Drawing.Size(63, 13);
             this.lblDB.TabIndex = 27;
             this.lblDB.Text = "Dar de Baja";
+            this.lblDB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblDB_MouseClick);
             // 
             // lblModificar
             // 
@@ -124,6 +128,7 @@ namespace CapaVista
             this.lblModificar.Size = new System.Drawing.Size(50, 13);
             this.lblModificar.TabIndex = 26;
             this.lblModificar.Text = "Modificar";
+            this.lblModificar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblModificar_MouseClick);
             // 
             // lblIngresar
             // 
@@ -134,6 +139,7 @@ namespace CapaVista
             this.lblIngresar.Size = new System.Drawing.Size(45, 13);
             this.lblIngresar.TabIndex = 25;
             this.lblIngresar.Text = "Ingresar";
+            this.lblIngresar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblIngresar_MouseClick);
             // 
             // dvgDepartamento
             // 
@@ -141,8 +147,11 @@ namespace CapaVista
             this.dvgDepartamento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgDepartamento.Location = new System.Drawing.Point(405, 181);
             this.dvgDepartamento.Name = "dvgDepartamento";
+            this.dvgDepartamento.ReadOnly = true;
+            this.dvgDepartamento.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dvgDepartamento.Size = new System.Drawing.Size(300, 180);
             this.dvgDepartamento.TabIndex = 24;
+            this.dvgDepartamento.SelectionChanged += new System.EventHandler(this.dvgDepartamento_SelectionChanged);
             // 
             // txtED
             // 

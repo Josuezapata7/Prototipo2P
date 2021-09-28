@@ -10,3 +10,7 @@ C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\obj\D
 C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\CapaVista.dll
 C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\CapaVista.pdb
 C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\obj\Debug\Ejecutable_Prototipo2P.csproj.CopyComplete
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\CapaControlador.dll
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\CapaModelo.dll
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\CapaControlador.pdb
+C:\Users\Langas\source\repos\Ejecutable_Prototipo2P\Ejecutable_Prototipo2P\bin\Debug\CapaModelo.pdb

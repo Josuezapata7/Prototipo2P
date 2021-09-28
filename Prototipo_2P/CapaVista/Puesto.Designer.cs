@@ -114,10 +114,13 @@ namespace CapaVista
             // 
             this.dvgPuesto.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(111)))), ((int)(((byte)(124)))));
             this.dvgPuesto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgPuesto.Location = new System.Drawing.Point(390, 162);
+            this.dvgPuesto.Location = new System.Drawing.Point(391, 184);
             this.dvgPuesto.Name = "dvgPuesto";
+            this.dvgPuesto.ReadOnly = true;
+            this.dvgPuesto.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dvgPuesto.Size = new System.Drawing.Size(300, 180);
             this.dvgPuesto.TabIndex = 7;
+            this.dvgPuesto.SelectionChanged += new System.EventHandler(this.dvgPuesto_SelectionChanged);
             // 
             // lblIngresarP
             // 
@@ -128,6 +131,7 @@ namespace CapaVista
             this.lblIngresarP.Size = new System.Drawing.Size(45, 13);
             this.lblIngresarP.TabIndex = 8;
             this.lblIngresarP.Text = "Ingresar";
+            this.lblIngresarP.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblIngresarP_MouseClick);
             // 
             // lblModificar
             // 
@@ -138,6 +142,7 @@ namespace CapaVista
             this.lblModificar.Size = new System.Drawing.Size(50, 13);
             this.lblModificar.TabIndex = 9;
             this.lblModificar.Text = "Modificar";
+            this.lblModificar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblModificar_MouseClick);
             // 
             // lblDB
             // 
@@ -148,6 +153,7 @@ namespace CapaVista
             this.lblDB.Size = new System.Drawing.Size(63, 13);
             this.lblDB.TabIndex = 10;
             this.lblDB.Text = "Dar de Baja";
+            this.lblDB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblDB_MouseClick);
             // 
             // pnlIngresar
             // 
@@ -158,26 +164,29 @@ namespace CapaVista
             this.pnlIngresar.Name = "pnlIngresar";
             this.pnlIngresar.Size = new System.Drawing.Size(42, 43);
             this.pnlIngresar.TabIndex = 11;
+            this.pnlIngresar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlIngresar_MouseClick);
             // 
             // pnlModificar
             // 
             this.pnlModificar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlModificar.BackgroundImage")));
             this.pnlModificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pnlModificar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlModificar.Location = new System.Drawing.Point(225, 314);
+            this.pnlModificar.Location = new System.Drawing.Point(180, 314);
             this.pnlModificar.Name = "pnlModificar";
             this.pnlModificar.Size = new System.Drawing.Size(35, 35);
             this.pnlModificar.TabIndex = 12;
+            this.pnlModificar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlModificar_MouseClick);
             // 
             // pnlDB
             // 
             this.pnlDB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlDB.BackgroundImage")));
             this.pnlDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pnlDB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlDB.Location = new System.Drawing.Point(269, 307);
+            this.pnlDB.Location = new System.Drawing.Point(173, 307);
             this.pnlDB.Name = "pnlDB";
             this.pnlDB.Size = new System.Drawing.Size(45, 43);
             this.pnlDB.TabIndex = 13;
+            this.pnlDB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlDB_MouseClick);
             // 
             // pnlBorde
             // 
